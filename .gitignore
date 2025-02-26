@@ -1,0 +1,51 @@
+# .gitignore pour un repo contenant une API C# et une application Angular
+
+# --- Fichiers et dossiers pour .NET ---
+bin/
+obj/
+*.dbmdl
+*.pdb
+*.exe
+*.dll
+*.appx
+*.appxbundle
+*.msix
+*.msixbundle
+*.nupkg
+*.snupkg
+*.log
+*.cache
+*.vs/
+.vscode/
+.idea/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Configuration, logs et secrets
+appsettings*.json
+secrets.json
+*.log
+
+# --- Fichiers et dossiers pour Angular ---
+node_modules/
+dist/
+/tmp
+/out
+*.log
+
+# Environnement et configuration
+src/environments/*.ts
+
+# --- Fichiers spécifiques à IDE ---
+/.vscode/
+/.idea/
+
+# --- Autres fichiers potentiellement sensibles ---
+*.bak
+*.swp
+Thumbs.db
+.DS_Store
